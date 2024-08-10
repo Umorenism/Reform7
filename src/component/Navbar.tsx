@@ -15,8 +15,8 @@ export const Navbar = () => {
 
   return (
     <div className="fixed top-0 left-0 w-full bg-[#3C3C3E] text-white flex items-center justify-between p-4 shadow-lg z-30">
-      <Link to=>
-      <img src={logo} alt="Logo" className="h-20" />
+      <Link to="/">
+        <img src={logo} alt="Logo" className="h-20" />
       </Link>
 
       <div className="flex gap-24 items-center ">
