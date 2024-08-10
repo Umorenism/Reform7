@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-img{
+    background: url('../public/blu2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-media{
+    background: url('../public/blu2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-pic{
+    background: url('../public/blu.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-pat{
+    background: url('../public/love3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel .slick-slide {
+    height: 100%;
+  }
+  
+  .carousel img {
+    height: 400px; /* Adjust height as needed */
+  }
