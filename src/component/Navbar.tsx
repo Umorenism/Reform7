@@ -29,7 +29,7 @@ export const Navbar = () => {
               Login
             </button>
           </Link>
-          <Link to="/signup">
+          <Link to="/sign-up">
             <button
               type="button"
               className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
@@ -107,6 +107,20 @@ export const Navbar = () => {
           <div className="flex justify-between items-center py-3">
             <Link to="/#">
               <button className="text-xl">Connect with us</button>
+            </Link>
+          </div>
+          <div className="flex justify-between items-center py-3">
+            <Link to="/login-in">
+              <button className="w-full py-2.5 px-5 text-xl font-medium text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+                Login
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-between items-center py-3">
+            <Link to="/sign-up">
+              <button className="w-full py-2.5 px-5 text-xl font-medium text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+                Sign up
+              </button>
             </Link>
           </div>
         </div>
