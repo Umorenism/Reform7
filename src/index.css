@@ -9,6 +9,12 @@
     background-size: cover;
     background-position: center;
 }
+.bg-sign{
+    background: url('../public/blu2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .bg-media{
     background: url('../public/blu2.webp');
     background-repeat: no-repeat;
